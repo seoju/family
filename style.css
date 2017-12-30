@@ -1,0 +1,39 @@
+body{
+  margin:0px;
+}
+  a{
+    color:black;
+    text-decoration:none;
+  }
+  h1{
+    font-size:50px;
+    text-align:center;
+    border-bottom:3px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  #gri ol{
+    border-right:3px solid gray;
+    width:130px;
+    margin:0px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 17px;
+  }
+  #gri{
+    display: grid;
+    grid-template-columns: 190px 1fr;
+  }
+  #gri #a1{
+    padding-left:25px
+  }
+  @media(max-width:800px){
+    #gri{
+      display: block;
+    }
+    #gri ol{
+      border-right:none
+    }
+    h1{
+      border-bottom:none
+    }
