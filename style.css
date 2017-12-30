@@ -27,6 +27,11 @@ body{
   #gri #a1{
     padding-left:25px
   }
+  .img{
+    width: 500px;
+  }
+
+
   @media(max-width:800px){
     #gri{
       display: block;
